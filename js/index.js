@@ -188,7 +188,7 @@ function displayValueById(increment, value, name) {
     <td class="p-1">${increment}</td>
     <td class="p-1">${name}</td>
     <td class="p-1">${value}<span>cm<sup>2</sup></span></td>
-    <td><button class="btn btn-info py-0 size">Convert to m<sup>2</sup></button></td>
+    <td><button class="btn btn-info py-0">Convert to m<sup>2</sup></button></td>
     `
     container.appendChild(tr);
 }
