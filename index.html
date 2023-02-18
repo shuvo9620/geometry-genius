@@ -28,104 +28,101 @@
     <main class="d-lg-flex">
         <!-- card section -->
         <section class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5 w-75 mx-4">
-            <!-- first img -->
+            <!-- triangle -->
 
-            <div class="card text-center mx-4" style="width: 16rem;">
+            <div class="randomColor card text-center mx-4" style="width: 16rem;">
                 <img class="mx-auto w-50 mt-5" src="images/triangle.png">
                 <div class="card-body">
-                    <h5 class="card-title">Triangle</h5>
+                    <h5 id="triangle-title" class="card-title">Triangle</h5>
                     <p class="card-text">Area (A) = 0.5 &times b &times h</p>
                 </div>
                 <div class="d-flex mx-5 justify-content-between rounded-lg gap-2">
-                    <input class="w-75" type="text" placeholder="b">cm
-                    <input class="w-75" type="text" placeholder="h">cm
+                    <input id="triangle-input-field1" class="w-75" type="text" placeholder="b">cm
+                    <input id="triangle-input-field2" class="w-75" type="text" placeholder="h">cm
                 </div>
-                <button class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
+                <button id="triangle-cal-btn" class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
             </div>
 
-            <!-- second img -->
+            <!-- Rectangle -->
 
-            <div class="card text-center mx-4" style="width: 16rem;">
+            <div class="randomColor card text-center mx-4" style="width: 16rem;">
                 <img class="mx-auto w-50 mt-5" src="images/rectangle.png">
                 <div class="card-body">
-                    <h5 class="card-title">Rectangle</h5>
+                    <h5 id="rectangle-title" class="card-title">Rectangle</h5>
                     <p class="card-text">Area (A) = w &times I</p>
                 </div>
                 <div class="d-flex mx-5 justify-content-between rounded-lg gap-2">
-                    <input class="w-75" type="text" placeholder="b">cm
-                    <input class="w-75" type="text" placeholder="h">cm
+                    <input id="rectangle-input-field1" class="w-75" type="text" placeholder="b">cm
+                    <input id="rectangle-input-field2" class="w-75" type="text" placeholder="h">cm
                 </div>
-                <button class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
+                <button id="rectangle-cal-btn" class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
             </div>
 
-            <!-- third img -->
+            <!-- parallelogerm -->
 
-            <div class="card text-center mx-4" style="width: 16rem;">
+            <div class="randomColor card text-center mx-4" style="width: 16rem;">
                 <img class="mx-auto w-50 mt-5" src="images/parallelogram.png">
                 <div class="card-body">
-                    <h5 class="card-title">Parallelogram</h5>
+                    <h5 id="parallelogram-title" class="card-title">Parallelogram</h5>
                     <p class="card-text">Area (A) = b &times h</p>
                 </div>
                 <div class="d-flex mx-5 justify-content-between rounded-lg gap-2">
-                    <input class="w-75" type="text" placeholder="b">cm
-                    <input class="w-75" type="text" placeholder="h">cm
+                    <input id="parallelogram-input-field1" class="w-75" type="text" placeholder="b">cm
+                    <input id="parallelogram-input-field2" class="w-75" type="text" placeholder="h">cm
                 </div>
-                <button class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
+                <button id="parallelogram-cal-btn" class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
             </div>
-            <!-- fourth img -->
-            <div class="card text-center mx-4" style="width: 16rem;">
+            <!-- Rhombus -->
+            <div class="randomColor card text-center mx-4" style="width: 16rem;">
                 <img class="mx-auto w-50 mt-5" src="images/rhombus.png">
                 <div class="card-body">
-                    <h5 class="card-title">Rhombus</h5>
+                    <h5 id="rhombus-title" class="card-title">Rhombus</h5>
                     <p class="card-text">Area (A) = 0.5 &times; d <sub>1</sub> &times;d <sub>2</sub></p>
                 </div>
                 <div class="d-flex mx-5 justify-content-between rounded-lg gap-2">
-                    <input class="w-75" type="text" placeholder="b">cm
-                    <input class="w-75" type="text" placeholder="h">cm
+                    <input id="rhombus-input-field1" class="w-75" type="text" placeholder="b">cm
+                    <input id="rhombus-input-field2" class="w-75" type="text" placeholder="h">cm
                 </div>
-                <button class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
+                <button id="rhombus-cal-btn" class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
             </div>
-            <!-- fifth img -->
-            <div class="card text-center mx-4" style="width: 16rem;">
+            <!-- pentagon -->
+            <div class="randomColor card text-center mx-4" style="width: 16rem;">
                 <img class="mx-auto w-50 mt-5" src="images/pentagon.png">
                 <div class="card-body">
-                    <h5 class="card-title">Pentagon</h5>
+                    <h5 id="pentagon-title" class="card-title">Pentagon</h5>
                     <p class="card-text">Area (A) = 0.5 &times p &times b</p>
                 </div>
                 <div class="d-flex mx-5 justify-content-between rounded-lg gap-2">
-                    <input class="w-75" type="text" placeholder="b">cm
-                    <input class="w-75" type="text" placeholder="h">cm
+                    <input id="pentagon-input-field1" class="w-75" type="text" placeholder="b">cm
+                    <input id="pentagon-input-field2" class="w-75" type="text" placeholder="h">cm
                 </div>
-                <button class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
+                <button id="pentagon-cal-btn" class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
             </div>
 
-            <!-- sixth img -->
-            <div class="card text-center mx-4" style="width: 16rem;">
+            <!-- ellipse -->
+            <div class="randomColor card text-center mx-4" style="width: 16rem;">
                 <img class="mx-auto w-50 mt-5" src="images/ellipse.png">
                 <div class="card-body">
-                    <h5 class="card-title">Ellipse</h5>
+                    <h5 id="ellipse-title" class="card-title">Ellipse</h5>
                     <p class="card-text">Area (A) = &pi;ab </p>
                 </div>
                 <div class="d-flex mx-5 justify-content-between rounded-lg gap-2">
-                    <input class="w-75" type="text" placeholder="b">cm
-                    <input class="w-75" type="text" placeholder="h">cm
+                    <input id="ellipse-input-field1" class="w-75" type="text" placeholder="b">cm
+                    <input id="ellipse-input-field2" class="w-75" type="text" placeholder="h">cm
                 </div>
-                <button class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
+                <button id="ellipse-cal-btn" class="btn btn-primary mt-4 mx-5 mb-4">Calculate</button>
             </div>
         </section>
         <!-- area calculation section-->
-        <section>
-            <div class="card text-center me-5 h-50" style="width: 16rem;">
+        <section >
+            <div id="calculation-area" class="card text-center me-5 h-50" style="width: 16rem;">
                 <p class="fs-3 text-decoration-underline">Area Calculation</p>
             </div>
         </section>
     </main>
 
-
-    <!-- js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <!-- js links -->
+    <script src="js/index.js"></script>
 </body>
 
 </html>
